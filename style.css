@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(2QrM-unscreen.gif),
+    url(https://images.unsplash.com/photo-1584269408084-df3446157c9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-repeat: no-repeat,repeat;
+
+    
+}
+
+.container {
+    height: 21rem;
+    width: 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+.square {
+    height: 7rem;
+    width: 7rem;
+    border: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p,h2 {
+    font-size: 2.8rem;
+    color: white; 
+}
+
+p {
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.X,.O {
+    font-size: 4.2rem;
+    color: white; 
+}
